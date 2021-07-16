@@ -1,38 +1,42 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@600&display=swap');
+*{
+  font-family: 'Encode Sans SC', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.App{
+  margin: 8px;
+  padding: 8px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background: linear-gradient(to left, #e492cf, #940551);
 }
-
-.App-link {
-  color: #61dafb;
+.title{
+  background: #520930;
+  color: #e492cf;
+  letter-spacing: 3px;
+  text-align: center;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  background-color: #520930;
+  color: #e492cf;
+  border: none;
+  cursor: pointer;
+}
+.inputsNumber{
+  font-size: 20px;
+  padding: 8px;
+  margin: 8px;
+  border: none;
+  border-radius: 5px;
+}
+h1{
+  background: #520930;
+  color: #e492cf;
+  letter-spacing: 3px;
+  text-align: center;
+}
+h4{
+  font-size: 23px;
 }
